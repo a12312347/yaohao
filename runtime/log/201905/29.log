@@ -1,0 +1,1010 @@
+---------------------------------------------------------------
+[ 2019-05-29T09:02:06+08:00 ] 127.0.0.1 GET yaohao.com/
+[运行时间：0.053330s] [吞吐率：18.75req/s] [内存消耗：2,417.34kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000103s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004043s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001373s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:07+08:00 ] 127.0.0.1 GET yaohao.com/favicon.ico
+[运行时间：0.037083s] [吞吐率：26.97req/s] [内存消耗：1,626.47kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001829s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:08+08:00 ] 127.0.0.1 GET yaohao.com/admin/index/login.html
+[运行时间：0.102732s] [吞吐率：9.73req/s] [内存消耗：2,641.30kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001821s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001413s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000288s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:08+08:00 ] 127.0.0.1 GET yaohao.com/admin/ajax/lang?callback=define&controllername=index&v=1559091728
+[运行时间：0.032308s] [吞吐率：30.95req/s] [内存消耗：2,590.88kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001772s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/index/login.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1559091728',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001241s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000253s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:12+08:00 ] 127.0.0.1 POST yaohao.com/admin/index/login.html
+[运行时间：0.375118s] [吞吐率：2.67req/s] [内存消耗：3,220.07kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001836s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://yaohao.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '75cf0cf7d697704ca4bab559193b20f9',
+  'username' => 'admin',
+  'password' => 'asd123123',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.089258s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076586s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.030753s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1559091732,`token`='5038ddef-bd19-4cfd-a8b6-6c8444e39992',`updatetime`=1559091732  WHERE  `id` = 1 [ RunTime:0.056601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.025647s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"75cf0cf7d697704ca4bab559193b20f9\",\"username\":\"admin\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36' , '127.0.0.1' , 1559091732) [ RunTime:0.061454s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:13+08:00 ] 127.0.0.1 GET yaohao.com/admin/index/index
+[运行时间：0.175798s] [吞吐率：5.69req/s] [内存消耗：3,603.20kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001831s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001234s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000277s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011128s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011150s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010926s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:13+08:00 ] 127.0.0.1 GET yaohao.com/admin/dashboard?addtabs=1
+[运行时间：0.090636s] [吞吐率：11.03req/s] [内存消耗：3,483.82kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001784s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001255s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000259s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010737s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015097s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.014725s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:13+08:00 ] 127.0.0.1 GET yaohao.com/admin/ajax/lang?callback=define&controllername=index&v=1559091732
+[运行时间：0.032103s] [吞吐率：31.15req/s] [内存消耗：2,592.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001893s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1559091732',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000342s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:13+08:00 ] 127.0.0.1 GET yaohao.com/admin/ajax/lang?callback=define&controllername=dashboard&v=1559091733
+[运行时间：0.038552s] [吞吐率：25.94req/s] [内存消耗：2,591.24kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001825s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1559091733',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001260s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000253s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:18+08:00 ] 127.0.0.1 GET yaohao.com/admin/buildingapartment?addtabs=1
+[运行时间：0.083427s] [吞吐率：11.99req/s] [内存消耗：3,421.72kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001829s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'buildingapartment',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/buildingapartment?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001203s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/buildingapartment.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Buildingapartment->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Buildingapartment.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\buildingapartment\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'roomList',
+  6 => 'saloonList',
+  7 => 'toiletList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000258s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010832s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010868s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010355s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'buildingapartment' LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:18+08:00 ] 127.0.0.1 GET yaohao.com/admin/ajax/lang?callback=define&controllername=buildingapartment&v=1559091737
+[运行时间：0.046935s] [吞吐率：21.31req/s] [内存消耗：2,589.63kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001833s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/buildingapartment?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'buildingapartment',
+  'v' => '1559091737',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001240s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/buildingapartment.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000244s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:18+08:00 ] 127.0.0.1 GET yaohao.com/admin/buildingapartment/index?addtabs=1&sort=building_apartment_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559091738071
+[运行时间：0.089278s] [吞吐率：11.20req/s] [内存消耗：3,617.21kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001852s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'buildingapartment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/buildingapartment?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'building_apartment_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1559091738071',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001244s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/buildingapartment.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Buildingapartment->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Buildingapartment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000255s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008554s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005940s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000551s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010430s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building_apartment` [ RunTime:0.009966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building` [ RunTime:0.010265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_building_apartment` `buildingapartment` LEFT JOIN `fa_building` `building` ON `buildingapartment`.`building_id`=`building`.`building_id` ORDER BY `buildingapartment`.`building_apartment_id` DESC LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `buildingapartment`.`building_apartment_id`,`buildingapartment`.`image`,`buildingapartment`.`room`,`buildingapartment`.`saloon`,`buildingapartment`.`toilet`,`buildingapartment`.`area`,`buildingapartment`.`price`,`buildingapartment`.`building_id`,`buildingapartment`.`createtime`,building.building_id AS building__building_id,building.category AS building__category,building.name AS building__name,building.alias AS building__alias,building.detail_img AS building__detail_img,building.thumbnail_img AS building__thumbnail_img,building.status AS building__status,building.renovation AS building__renovation,building.class AS building__class,building.sale AS building__sale,building.house_price AS building__house_price,building.total_price AS building__total_price,building.is_hot AS building__is_hot,building.address AS building__address,building.longitude AS building__longitude,building.latitude AS building__latitude,building.developer AS building__developer,building.use_time AS building__use_time,building.green AS building__green,building.volume AS building__volume,building.parking AS building__parking,building.traffic AS building__traffic,building.addr_area AS building__addr_area,building.buld_area AS building__buld_area,building.complete_time AS building__complete_time,building.building AS building__building,building.householder AS building__householder,building.floor AS building__floor,building.property AS building__property,building.synopsis AS building__synopsis,building.is_user AS building__is_user,building.createtime AS building__createtime,building.real_images AS building__real_images,building.periphery_images AS building__periphery_images,building.template_images AS building__template_images,building.effect_images AS building__effect_images,building.bird_images AS building__bird_images FROM `fa_building_apartment` `buildingapartment` LEFT JOIN `fa_building` `building` ON `buildingapartment`.`building_id`=`building`.`building_id` ORDER BY `buildingapartment`.`building_apartment_id` DESC LIMIT 0,10 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:19+08:00 ] 127.0.0.1 GET yaohao.com/admin/building_dynamic?addtabs=1
+[运行时间：0.100799s] [吞吐率：9.92req/s] [内存消耗：3,541.20kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001854s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'building_dynamic',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/building_dynamic?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001309s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/building_dynamic.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\BuildingDynamic->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\BuildingDynamic.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\building_dynamic\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'categoryList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000261s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010431s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.020391s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'buildingdynamic' LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:19+08:00 ] 127.0.0.1 GET yaohao.com/admin/ajax/lang?callback=define&controllername=building_dynamic&v=1559091739
+[运行时间：0.048639s] [吞吐率：20.56req/s] [内存消耗：2,588.95kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001815s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/building_dynamic?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'building_dynamic',
+  'v' => '1559091739',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001185s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/building_dynamic.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000245s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:19+08:00 ] 127.0.0.1 GET yaohao.com/admin/building_dynamic/index?addtabs=1&sort=building_dynamic_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559091739378
+[运行时间：0.107983s] [吞吐率：9.26req/s] [内存消耗：3,602.91kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001999s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'building_dynamic',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/building_dynamic?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'building_dynamic_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1559091739378',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001217s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/building_dynamic.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\BuildingDynamic->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\BuildingDynamic.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000253s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009866s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.021004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005269s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000549s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009801s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building_dynamic` [ RunTime:0.010619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building` [ RunTime:0.007709s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_building_dynamic` `building_dynamic` LEFT JOIN `fa_building` `building` ON `building_dynamic`.`building_id`=`building`.`building_id` ORDER BY `building_dynamic`.`building_dynamic_id` DESC LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `building_dynamic`.`building_dynamic_id`,`building_dynamic`.`category`,`building_dynamic`.`title`,`building_dynamic`.`details`,`building_dynamic`.`author`,`building_dynamic`.`author_avatar`,`building_dynamic`.`building_id`,`building_dynamic`.`createtime`,building.building_id AS building__building_id,building.category AS building__category,building.name AS building__name,building.alias AS building__alias,building.detail_img AS building__detail_img,building.thumbnail_img AS building__thumbnail_img,building.status AS building__status,building.renovation AS building__renovation,building.class AS building__class,building.sale AS building__sale,building.house_price AS building__house_price,building.total_price AS building__total_price,building.is_hot AS building__is_hot,building.address AS building__address,building.longitude AS building__longitude,building.latitude AS building__latitude,building.developer AS building__developer,building.use_time AS building__use_time,building.green AS building__green,building.volume AS building__volume,building.parking AS building__parking,building.traffic AS building__traffic,building.addr_area AS building__addr_area,building.buld_area AS building__buld_area,building.complete_time AS building__complete_time,building.building AS building__building,building.householder AS building__householder,building.floor AS building__floor,building.property AS building__property,building.synopsis AS building__synopsis,building.is_user AS building__is_user,building.createtime AS building__createtime,building.real_images AS building__real_images,building.periphery_images AS building__periphery_images,building.template_images AS building__template_images,building.effect_images AS building__effect_images,building.bird_images AS building__bird_images FROM `fa_building_dynamic` `building_dynamic` LEFT JOIN `fa_building` `building` ON `building_dynamic`.`building_id`=`building`.`building_id` ORDER BY `building_dynamic`.`building_dynamic_id` DESC LIMIT 0,10 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:20+08:00 ] 127.0.0.1 GET yaohao.com/admin/buildingapartment/index?addtabs=1&sort=building_apartment_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559091738072
+[运行时间：0.093140s] [吞吐率：10.74req/s] [内存消耗：3,617.21kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001910s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'buildingapartment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/buildingapartment?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'building_apartment_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1559091738072',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001289s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/buildingapartment.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Buildingapartment->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Buildingapartment.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000257s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012391s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008572s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000559s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010575s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building_apartment` [ RunTime:0.007710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building` [ RunTime:0.009612s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_building_apartment` `buildingapartment` LEFT JOIN `fa_building` `building` ON `buildingapartment`.`building_id`=`building`.`building_id` ORDER BY `buildingapartment`.`building_apartment_id` DESC LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `buildingapartment`.`building_apartment_id`,`buildingapartment`.`image`,`buildingapartment`.`room`,`buildingapartment`.`saloon`,`buildingapartment`.`toilet`,`buildingapartment`.`area`,`buildingapartment`.`price`,`buildingapartment`.`building_id`,`buildingapartment`.`createtime`,building.building_id AS building__building_id,building.category AS building__category,building.name AS building__name,building.alias AS building__alias,building.detail_img AS building__detail_img,building.thumbnail_img AS building__thumbnail_img,building.status AS building__status,building.renovation AS building__renovation,building.class AS building__class,building.sale AS building__sale,building.house_price AS building__house_price,building.total_price AS building__total_price,building.is_hot AS building__is_hot,building.address AS building__address,building.longitude AS building__longitude,building.latitude AS building__latitude,building.developer AS building__developer,building.use_time AS building__use_time,building.green AS building__green,building.volume AS building__volume,building.parking AS building__parking,building.traffic AS building__traffic,building.addr_area AS building__addr_area,building.buld_area AS building__buld_area,building.complete_time AS building__complete_time,building.building AS building__building,building.householder AS building__householder,building.floor AS building__floor,building.property AS building__property,building.synopsis AS building__synopsis,building.is_user AS building__is_user,building.createtime AS building__createtime,building.real_images AS building__real_images,building.periphery_images AS building__periphery_images,building.template_images AS building__template_images,building.effect_images AS building__effect_images,building.bird_images AS building__bird_images FROM `fa_building_apartment` `buildingapartment` LEFT JOIN `fa_building` `building` ON `buildingapartment`.`building_id`=`building`.`building_id` ORDER BY `buildingapartment`.`building_apartment_id` DESC LIMIT 0,10 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:21+08:00 ] 127.0.0.1 GET yaohao.com/admin/building?addtabs=1
+[运行时间：0.082941s] [吞吐率：12.06req/s] [内存消耗：3,433.59kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001860s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'building',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/building?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001442s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/building.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Building->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Building.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\building\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'categoryList',
+  6 => 'statusList',
+  7 => 'renovationList',
+  8 => 'classList',
+  9 => 'saleList',
+  10 => 'isHotList',
+  11 => 'isUserList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000250s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009625s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012763s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008566s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'building' LIMIT 1 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2019-05-29T09:02:21+08:00 ] 127.0.0.1 GET yaohao.com/admin/ajax/lang?callback=define&controllername=building&v=1559091740
+[运行时间：0.031004s] [吞吐率：32.25req/s] [内存消耗：2,591.73kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001834s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/building?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'building',
+  'v' => '1559091740',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001196s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/building.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000242s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T09:02:21+08:00 ] 127.0.0.1 GET yaohao.com/admin/building/index?addtabs=1&sort=building_id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1559091741103
+[运行时间：0.152998s] [吞吐率：6.54req/s] [内存消耗：3,519.20kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001808s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'building',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1559028389,1559091728; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1559091728; PHPSESSID=gcjbh6d1pliubd2s3mnsjd7ac5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yaohao.com/admin/building?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'yaohao.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'building_id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1559091741103',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001223s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin/lang/zh-cn/building.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Building->index[ D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\controller\Building.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000257s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009478s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006748s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000527s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009447s ] mysql:host=127.0.0.1;dbname=yaohao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_building` [ RunTime:0.070602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_building` ORDER BY `building_id` DESC LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_building` ORDER BY `building_id` DESC LIMIT 0,10 [ RunTime:0.000466s ]
