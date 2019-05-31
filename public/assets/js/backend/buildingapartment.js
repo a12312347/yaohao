@@ -29,6 +29,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'room', title: __('Room'), searchList: {"10":__('Room 10'),"20":__('Room 20'),"30":__('Room 30'),"40":__('Room 40'),"50":__('Room 50')}, formatter: Table.api.formatter.normal},
                         {field: 'saloon', title: __('Saloon'), searchList: {"10":__('Saloon 10'),"20":__('Saloon 20'),"30":__('Saloon 30'),"40":__('Saloon 40'),"50":__('Saloon 50')}, formatter: Table.api.formatter.normal},
                         {field: 'toilet', title: __('Toilet'), searchList: {"10":__('Toilet 10'),"20":__('Toilet 20'),"30":__('Toilet 30'),"40":__('Toilet 40'),"50":__('Toilet 50')}, formatter: Table.api.formatter.normal},
+                        {field:'orientation',title:__('Orientation'),searchList:{'10':__('Orientation 10'),'20':__('Orientation 20'),'30':__('Orientation 30'),'40':__('Orientation 40')},formatter:Table.api.formatter.normal},
+                        {field:'sale',title:__('Sale'),searchList:{"10":__('Sale 10'),"20":__('Sale 20'),"30":__('Sale 30')},formatter:Table.api.formatter.normal},
                         {field: 'area', title: __('Area'), operate:'BETWEEN'},
                         {field: 'price', title: __('Price'), operate:'BETWEEN'},
                         {field: 'building_id', title: __('Building_id')},

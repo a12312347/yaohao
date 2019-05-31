@@ -50,6 +50,33 @@
 
         </div>
     </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Orientation')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <select  id="c-orientation" data-rule="required" class="form-control selectpicker" name="row[orientation]">
+                {foreach name="orientationList" item="vo"}
+                <option value="{$key}" {in name="key" value=""}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sale')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <select  id="c-sale" data-rule="required" class="form-control selectpicker" name="row[sale]">
+                {foreach name="saleList" item="vo"}
+                <option value="{$key}" {in name="key" value=""}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Area')}:</label>
         <div class="col-xs-12 col-sm-8">

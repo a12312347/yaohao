@@ -149,10 +149,13 @@ class Ajax extends Backend
         $table = $this->request->post("table");
         //排序的方式
         $orderway = $this->request->post("orderway", "", 'strtolower');
+        //主键
+        $pk=$this->request->post('pk');
         $orderway = $orderway == 'asc' ? 'ASC' : 'DESC';
         $sour = $weighdata = [];
         $ids = explode(',', $ids);
-        $prikey = 'id';
+//        $prikey = 'id';
+        $prikey=$pk;
         $pid = $this->request->post("pid");
         //限制更新的字段
         $field = in_array($field, ['weigh']) ? $field : 'weigh';
@@ -192,6 +195,8 @@ class Ajax extends Backend
         }
         $this->success();
     }
+
+
 
     /**
      * 清空系统缓存

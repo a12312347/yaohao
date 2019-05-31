@@ -6,6 +6,6 @@ return [
     'Category 10' => '购房资格',
     'Category 20' => '刚需资格',
     'Title'       => '题目',
-    'Sort'        => '排序',
-    'Createtime'  => '创建时间'
+    'Createtime'  => '创建时间',
+    'Weigh'       => '权重'
 ];

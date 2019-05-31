@@ -27,7 +27,12 @@ class Article extends Model
     protected $append = [
 
     ];
-    
+
+
+
+    public function getIsRecommendList(){
+        return ['10'=>__('IsRecommend 10'),'20'=>__('IsRecommend 20')];
+    }
 
     
 

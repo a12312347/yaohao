@@ -27,7 +27,9 @@ class Buildingapartment extends Model
     protected $append = [
         'room_text',
         'saloon_text',
-        'toilet_text'
+        'toilet_text',
+        'sale_text',
+        'orientation_text'
     ];
     
 
@@ -47,6 +49,14 @@ class Buildingapartment extends Model
         return ['10' => __('Toilet 10'), '20' => __('Toilet 20'), '30' => __('Toilet 30'), '40' => __('Toilet 40'), '50' => __('Toilet 50')];
     }
 
+
+    public function getOrientationList(){
+        return ['10'=>__('Orientation 10'),'20'=>__('Orientation 20'),'30'=>__('Orientation 30'),'40'=>__('Orientation 40')];
+    }
+
+    public function getSaleList(){
+        return ['10'=>__('Sale 10'),'20'=>__('Sale 20'),'30'=>__('Sale 30')];
+    }
 
     public function getRoomTextAttr($value, $data)
     {
@@ -68,6 +78,20 @@ class Buildingapartment extends Model
     {
         $value = $value ? $value : (isset($data['toilet']) ? $data['toilet'] : '');
         $list = $this->getToiletList();
+        return isset($list[$value]) ? $list[$value] : '';
+    }
+
+    public function getOrientationTextAttr($value, $data)
+    {
+        $value = $value ? $value : (isset($data['orientation']) ? $data['orientation'] : '');
+        $list = $this->getOrientationList();
+        return isset($list[$value]) ? $list[$value] : '';
+    }
+
+    public function getSaleTextAttr($value, $data)
+    {
+        $value = $value ? $value : (isset($data['sale']) ? $data['sale'] : '');
+        $list = $this->getSaleList();
         return isset($list[$value]) ? $list[$value] : '';
     }
 

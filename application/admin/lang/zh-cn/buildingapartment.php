@@ -25,5 +25,15 @@ return [
     'Price'                 => '估价',
     'Building_id'           => '楼盘id',
     'Createtime'            => '创建时间',
-    'Building.name'=>'楼盘名称'
+    'Building.name'=>'楼盘名称',
+    'Orientation'=>'朝向',
+    'Orientation 10'=>'朝北',
+    'Orientation 20'=>'朝东',
+    'Orientation 30'=>'朝南',
+    'Orientation 40'=>'朝西',
+    'Sale'=>'售卖状态',
+    'Sale 10'=>'待售',
+    'Sale 20'=>'在售',
+    'Sale 30'=>'售罄',
+
 ];

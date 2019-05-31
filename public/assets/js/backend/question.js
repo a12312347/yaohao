@@ -20,23 +20,23 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             table.bootstrapTable({
                 url: $.fn.bootstrapTable.defaults.extend.index_url,
                 pk: 'question_id',
-                sortName: 'question_id',
+                sortName: 'weigh',
                 columns: [
                     [
                         {checkbox: true},
                         {field: 'question_id', title: __('Question_id')},
+                        {field: 'weigh', title: __('Weigh')},
                         {field: 'category', title: __('Category'), searchList: {"10":__('Category 10'),"20":__('Category 20')}, formatter: Table.api.formatter.normal},
                         {field: 'title', title: __('Title')},
-                        {field: 'sort', title: __('Sort')},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange'},
+
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate,buttons:[
                             {
                                 name:'answers',
                                 text:'查看答案',
-                                title:'查看答案',
                                 icon:'fa fa-list',
-                                classname:'btn btn-xs btn-primary btn-dialog',
-                                url:'answer/index?question_id={row.question_id}'
+                                classname:'btn-xs btn btn-primary btn-dialog',
+                                url:'answer?question_id={row.question_id}'
                             }
                         ]}
                     ]

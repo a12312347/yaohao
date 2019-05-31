@@ -269,9 +269,11 @@ define(['jquery', 'bootstrap', 'moment', 'moment/locale/zh-cn', 'bootstrap-table
                             });
                             var changeid = current[options.pk];
                             var pid = typeof current.pid != 'undefined' ? current.pid : '';
+
                             var params = {
                                 url: table.bootstrapTable('getOptions').extend.dragsort_url,
                                 data: {
+                                    pk:options.pk,
                                     ids: ids.join(','),
                                     changeid: changeid,
                                     pid: pid,

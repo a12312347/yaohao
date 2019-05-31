@@ -22,6 +22,8 @@ class Article extends Backend
     {
         parent::_initialize();
         $this->model = new \app\common\model\Article;
+        $IsRecommendList=$this->model->getIsRecommendList();
+        $this->view->assign('IsRecommendList',$IsRecommendList);
 
     }
     
@@ -130,7 +132,7 @@ class Article extends Backend
                     ->select();
 
             foreach ($list as $row) {
-                $row->visible(['article_id','title','image','author','createtime']);
+                $row->visible(['article_id','title','image','author','createtime','is_recommend','author_avatar']);
                 
             }
             $list = collection($list)->toArray();

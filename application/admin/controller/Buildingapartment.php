@@ -25,6 +25,8 @@ class Buildingapartment extends Backend
         $this->view->assign("roomList", $this->model->getRoomList());
         $this->view->assign("saloonList", $this->model->getSaloonList());
         $this->view->assign("toiletList", $this->model->getToiletList());
+        $this->view->assign("orientationList", $this->model->getOrientationList());
+        $this->view->assign("saleList", $this->model->getSaleList());
     }
     
     /**
@@ -86,7 +88,7 @@ class Buildingapartment extends Backend
                     ->select();
 
             foreach ($list as $row) {
-                $row->visible(['building_apartment_id','image','room','saloon','toilet','area','price','building_id','createtime']);
+                $row->visible(['building_apartment_id','image','room','saloon','toilet','orientation','sale','area','price','building_id','createtime']);
                 $row->visible(['building']);
                 $row->getRelation('building')->visible(['name']);
 

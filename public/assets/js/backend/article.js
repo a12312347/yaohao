@@ -28,7 +28,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'title', title: __('Title')},
                         {field: 'image', title: __('Image'), events: Table.api.events.image, formatter: Table.api.formatter.image},
                         {field: 'author', title: __('Author')},
+                        {field: 'author_avatar', title: __('Author_avatar'), events: Table.api.events.image, formatter: Table.api.formatter.image},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange'},
+                        {field:'is_recommend',title:__('IsRecommend'),searchList: {"10":__('IsRecommend 10'),"20":__('IsRecommend 20')},formatter: Table.api.formatter.normal},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

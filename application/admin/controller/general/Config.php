@@ -5,6 +5,7 @@ namespace app\admin\controller\general;
 use app\common\controller\Backend;
 use app\common\library\Email;
 use app\common\model\Config as ConfigModel;
+use think\Db;
 use think\Exception;
 
 /**
@@ -27,6 +28,31 @@ class Config extends Backend
         parent::_initialize();
         $this->model = model('Config');
     }
+
+    //系统设置
+    public function systemset(){
+        if($this->request->post()){
+            $params=$this->request->request('row/a');
+            //dump($params);exit;
+            Db::startTrans();
+            try{
+                foreach ($params as $k=>$v) {
+                    Db::table('fa_config')->where(['name'=>$k])->update(['value'=>$v]);
+                }
+                Db::commit();
+                $res='success';
+            }catch (\Exception $e){
+                $errCode=$e->getMessage();
+                Db::rollback();
+                $res='error';
+            }
+            return $res=='success'? $this->success('设置成功!') : $this->error('设置失败!原因是:'.$errCode);
+        }
+        $systemset=$this->model->getGroupData('systemset');
+        $this->view->assign('row',$systemset);
+        return $this->view->fetch();
+    }
+
 
     /**
      * 查看

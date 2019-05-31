@@ -59,7 +59,7 @@ class Building extends Model
 
     public function getSaleList()
     {
-        return ['10' => __('Sale 10'), '20' => __('Sale 20'), '30' => __('Sale 30')];
+        return ['10' => __('Sale 10'), '20' => __('Sale 20'), '30' => __('Sale 30'),'40'=>__('Sale 40')];
     }
 
     public function getIsHotList()
