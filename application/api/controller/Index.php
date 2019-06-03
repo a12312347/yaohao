@@ -5,6 +5,7 @@ namespace app\api\controller;
 use app\common\controller\Api;
 use think\Db;
 use fast\Http;
+use wechat\Wechat;
 /**
  * 首页接口
  */
@@ -21,6 +22,54 @@ class Index extends Api
     {
         $this->success('请求成功');
     }
+
+
+    /*
+     * 获取openid
+     *
+     * */
+    public function openid(){
+        $params=$this->request->request();
+        if(empty($params['js_code'])){
+            return $this->error('请携带参数js_code!');
+        }
+        $appset=model('Config')->getGroupData('appset');
+        $wechat=new Wechat($appset['appid'],$appset['appsecret']);
+        $res=$wechat->getOpenId($params['js_code']);
+        if($res){
+            return $this->success('请求成功!',$res);
+        }else{
+            return $this->error('请求失败!');
+        }
+    }
+
+
+    /*
+     * 获取用户信息
+     * @params openid
+     * @params nickname
+     * @params avatar
+     * @params
+     *
+     * */
+    public function userInfo(){
+        $params=$this->request->request();
+        if(empty($params['nickname']) || empty($params['avatar']) ||empty($params['openid'])){
+            return $this->error('请携带参数nickname,avatar,openid!');
+        }
+        $user=model('user')->get(['openid'=>$params['openid']]);
+        if($user){
+            return $this->success('请求成功!',$user);
+        }else{
+            $params['createtime']=datetime(time());
+            $res=model('user')->allowField(true)->save($params);
+            $user=model('user')->get(['openid'=>$params['openid']]);
+            return $this->success('新增成功!',$user);
+        }
+
+    }
+
+
 
 
     /*
