@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/common\view\tpl\dispatch_jump.tpl";i:1557482263;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"D:\wwwroot\Yaohao.nomeis.cn\public/../application/common\view\tpl\dispatch_jump.tpl";i:1559524978;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

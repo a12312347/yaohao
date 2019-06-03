@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"D:\phpStudy\PHPTutorial\WWW\yaohao\public/../application/admin\view\index\login.html";i:1557482263;s:74:"D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\view\common\meta.html";i:1557482263;s:76:"D:\phpStudy\PHPTutorial\WWW\yaohao\application\admin\view\common\script.html";i:1557482263;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:77:"D:\wwwroot\Yaohao.nomeis.cn\public/../application/admin\view\index\login.html";i:1559524978;s:67:"D:\wwwroot\Yaohao.nomeis.cn\application\admin\view\common\meta.html";i:1559524978;s:69:"D:\wwwroot\Yaohao.nomeis.cn\application\admin\view\common\script.html";i:1559524978;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

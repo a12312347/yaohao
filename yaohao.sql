@@ -1,8 +1,4 @@
-﻿# Host: localhost  (Version: 5.5.53)
-# Date: 2019-05-31 16:58:47
-# Generator: MySQL-Front 5.3  (Build 4.234)
-
-/*!40101 SET NAMES utf8 */;
+﻿
 
 #
 # Structure for table "fa_admin"
