@@ -33,8 +33,8 @@ class Index extends Api
         if(empty($params['js_code'])){
             return $this->error('请携带参数js_code!');
         }
-        $appset=model('Config')->getGroupData('appset');
-        $wechat=new Wechat($appset['appid'],$appset['appsecret']);
+        $appset=model('Config')->getGroupData('systemset');
+        $wechat=new Wechat($appset['appid'],$appset['secret']);
         $res=$wechat->getOpenId($params['js_code']);
         if($res){
             return $this->success('请求成功!',$res);
