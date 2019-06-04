@@ -71,6 +71,23 @@ class Index extends Api
 
 
 
+	/*
+	*首页轮播图
+	*
+	*
+	*/
+	public function adList(){
+		$list=Db::table('fa_ad')->order('weigh','desc')->field(['ad_id','image'])->select();
+		if($list){
+			return $this->success('请求成功!',$list);
+			
+		}else{
+			return $this->error('请求失败!');
+		}
+		
+	}
+		
+
 
     /*
      * 基本设置
